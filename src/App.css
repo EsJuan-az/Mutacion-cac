@@ -10,8 +10,9 @@
     font-family: 'Palanquin Dark', sans-serif;
 }
 
-body{
+body, html{
     background-color: #e1e1e1;
+    overflow: hidden;
 }
 *{
     margin: 0;
