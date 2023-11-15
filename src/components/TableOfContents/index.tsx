@@ -4,11 +4,12 @@ import WhatIs from "../mutaciones/WhatIs";
 import Content from "../Content";
 import { BsFillCaretDownFill } from "react-icons/bs";
 import MutacionTemplate from "../mutaciones/MutacionTemplate";
+import SecondKind from "../mutaciones/SecondKind";
 
 const mutaciones = [
     WhatIs,
     MutacionTemplate,
-    MutacionTemplate,
+    SecondKind,
     MutacionTemplate,
     MutacionTemplate,
     MutacionTemplate,
@@ -55,7 +56,7 @@ function TableOfContents({ setContent }) {
             </Content>
       ));
   return (
-    <section className={`transition-all duration-500 w-1/3 flex flex-col mr-5 bg-[#443D4A] rounded-t-md ${!open ? ' mb-[-290px]' : ''}`}>
+    <section className={`transition-all duration-500 w-1/3 flex flex-col mr-5 bg-[#443D4A] rounded-t-md select-none ${!open ? ' mb-[-290px]' : ''}`}>
       <header
         onClick={ () => setOpen(!open) }
         className="flex justify-between items-center paladark text-[#e1e1e1] bg-black rounded-t-md border-b border-b-[#e1e1e1] p-2 cursor-pointer">
