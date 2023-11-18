@@ -6,7 +6,7 @@ function MutacionTemplate({ children, audio='#', title, author }) {
       <h2 className="paladark text-xl">{title}:</h2>
       <h4 className="paladark text-xs mt-[-3px]">Por { author }</h4>
 
-      <span className=" mt-2 inline-block max-h-32 p-2 border-slate-500 border-[2px] rounded-tl-2xl rounded-bl-2xl overflow-y-scroll py-4">
+      <span className=" mt-2 inline-block max-h-40 p-2 border-slate-500 border-[2px] rounded-tl-2xl rounded-bl-2xl overflow-y-scroll py-4">
         {children}
       </span>
       <nav className='w-3/4 mt-2'>

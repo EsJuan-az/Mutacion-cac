@@ -5,7 +5,7 @@ import Content from "../Content";
 import { BsFillCaretDownFill } from "react-icons/bs";
 import MutacionTemplate from "../mutaciones/MutacionTemplate";
 import SecondKind from "../mutaciones/SecondKind";
-
+import Mark from '../Mark';
 const mutaciones = [
     WhatIs,
     MutacionTemplate,
@@ -56,17 +56,20 @@ function TableOfContents({ setContent }) {
             </Content>
       ));
   return (
-    <section className={`transition-all duration-500 w-1/3 flex flex-col mr-5 bg-[#443D4A] rounded-t-md select-none ${!open ? ' mb-[-290px]' : ''}`}>
+    <section className="relative w-1/3">
+    <Mark/>
+    <div className={`absolute z-[15] transition-all duration-500 w-5/6 flex flex-col mr-5 bg-[#443D4A] rounded-t-md select-none ${!open ? ' bottom-[-290px]' : 'bottom-0'}`}>
       <header
         onClick={ () => setOpen(!open) }
         className="flex justify-between items-center paladark text-[#e1e1e1] bg-black rounded-t-md border-b border-b-[#e1e1e1] p-2 cursor-pointer">
         <h2 >Contenidos</h2>
         <BsFillCaretDownFill className={`transition-all duration-500 ${!open ? 'rotate-180' : ''}`}/>
       </header>
+      <ul className="text-[#e1e1e1]">
+        { Contents }
+      </ul>
+    </div>
 
-        <ul className="text-[#e1e1e1]">
-          { Contents }
-        </ul>
     </section>
   );
 }

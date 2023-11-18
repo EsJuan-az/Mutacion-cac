@@ -2,9 +2,9 @@ import React from 'react';
 
 function Mark() {
   return (
-    <span className='absolute bottom-32 right-6 z-[-1] flex items-center flex-col'>
+    <span className='z-[-1] flex items-center flex-col pb-20'>
         <h2 className='blackhan text-3xl w-56 mt-7 select-none'>Grupo 9:</h2>
-        <ul className='list-disc [&>li]:text-sm w-[100%]'>
+        <ul className='pl-4 list-disc [&>li]:text-sm w-[100%]'>
             <li>Juan Esteban Arango</li>
             <li>Samuel Colorado Castrillón</li>
             <li>Yahira Brigitte Iturri</li>
