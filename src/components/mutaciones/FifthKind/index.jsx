@@ -1,9 +1,13 @@
 import React from "react";
 import MutacionTemplate from "../MutacionTemplate";
+import bg from '../../../assets/Brigette.mp3';
 
 function FifthKind() {
   return (
-    <MutacionTemplate title="Mutación de quinto tipo" author="Brigitte Iturri">
+    <MutacionTemplate
+    title="Mutación de quinto tipo"
+    author="Brigitte Iturri"
+    audio={bg}>
       <p>
         Las mutaciones de quinta implican cambios en los registros catastrales
         debido a la inclusión de información sobre propiedades o edificaciones
