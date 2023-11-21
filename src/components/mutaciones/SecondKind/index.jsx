@@ -1,9 +1,12 @@
 import React from "react";
 import MutacionTemplate from "../MutacionTemplate";
-
+import jhonatan from '../../../assets/Jhonatan.mp3';
 function SecondKind() {
   return (
-    <MutacionTemplate title="Mutación de Segundo Tipo" author="Jhonatan Parra">
+    <MutacionTemplate
+      title="Mutación de segundo Tipo"
+      author="Jhonatan Parra"
+      audio={jhonatan}>
       <p>
         Las mutaciones de segunda son cambios en la descripción de un terreno,
         como correcciones de errores o ajustes por cambios en carreteras u otros
@@ -19,7 +22,7 @@ function SecondKind() {
         debes adjuntar:
       </p>
 
-      <ul>
+      <ul className="list-disc pl-3">
         <li>
           <em>
             <b>Desenglobe:</b>

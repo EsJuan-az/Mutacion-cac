@@ -9,11 +9,13 @@ import ScreenScribbles from './components/ScreenScribbles';
 import TableOfContents from './components/TableOfContents';
 import Rectangles from './components/Rectangles';
 import UnalLogo from './components/UnalLogo';
+import ScreenRestriction from './components/ScreenRestriction';
 
 function App() {
   const [Content, setContent] = useState();
   return (
     <>
+      <ScreenRestriction/>
       <UnalLogo/>
       <Rectangles/>
       <ImageDisplay/>

@@ -3,12 +3,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 .blackhan{
     font-family: 'Black Han Sans', sans-serif;
 }
 .paladark{
     font-family: 'Palanquin Dark', sans-serif;
 }
+
 
 body{
     zoom: 120%;

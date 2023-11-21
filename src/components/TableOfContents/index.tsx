@@ -6,16 +6,23 @@ import { BsFillCaretDownFill } from "react-icons/bs";
 import MutacionTemplate from "../mutaciones/MutacionTemplate";
 import SecondKind from "../mutaciones/SecondKind";
 import Mark from '../Mark';
+import Requirements from "../mutaciones/Requirements";
+import FirstKind from "../mutaciones/FirstKind";
+import ThirdKind from "../mutaciones/ThirdKind";
+import FourthKind from "../mutaciones/FourthKind";
+import FifthKind from "../mutaciones/FifthKind";
 const mutaciones = [
+    Requirements,
     WhatIs,
-    MutacionTemplate,
+    FirstKind,
     SecondKind,
-    MutacionTemplate,
-    MutacionTemplate,
-    MutacionTemplate,
+    ThirdKind,
+    FourthKind,
+    FifthKind,
 ]
 
 const contenidos = [
+  <>Documentos necesarios.</>,
   <>Significado de Mutación.</>,
   <>
     Primer tipo.
@@ -58,7 +65,7 @@ function TableOfContents({ setContent }) {
   return (
     <section className="relative w-1/3">
     <Mark/>
-    <div className={`absolute z-[15] transition-all duration-500 w-5/6 flex flex-col mr-5 bg-[#443D4A] rounded-t-md select-none ${!open ? ' bottom-[-290px]' : 'bottom-0'}`}>
+    <div className={`absolute z-[15] transition-all duration-500 w-5/6 flex flex-col mr-5 bg-[#443D4A] rounded-t-md select-none ${!open ? ' bottom-[-340px]' : 'bottom-0'}`}>
       <header
         onClick={ () => setOpen(!open) }
         className="flex justify-between items-center paladark text-[#e1e1e1] bg-black rounded-t-md border-b border-b-[#e1e1e1] p-2 cursor-pointer">

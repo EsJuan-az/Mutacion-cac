@@ -1,7 +1,7 @@
 
 import Header from '../Header';
-import colombia from './colombia.jpg';
-import taxes from './taxes.jpg';
+import colombia from '../../assets/colombia.jpg';
+import taxes from '../../assets/taxes.jpg';
 function ImageDisplay() {
   return (
     <figure className='absolute bottom-0 left-0 select-none z-[-10] w-1/4'>

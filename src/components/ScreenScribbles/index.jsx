@@ -1,5 +1,5 @@
-import s1 from './scribble1.png';
-import s2 from './scribble2.png';
+import s1 from '../../assets/scribble1.png';
+import s2 from '../../assets/scribble2.png';
 function index() {
   return (
     <>

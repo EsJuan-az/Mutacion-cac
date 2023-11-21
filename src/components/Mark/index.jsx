@@ -6,11 +6,11 @@ function Mark() {
         <h2 className='blackhan text-3xl w-56 mt-7 select-none'>Grupo 9:</h2>
         <ul className='pl-4 list-disc [&>li]:text-sm w-[100%]'>
             <li>Juan Esteban Arango</li>
-            <li>Samuel Colorado Castrillón</li>
             <li>Yahira Brigitte Iturri</li>
-            <li>Laura Suárez</li>
-            <li>Jhonatan Parra</li>
+            <li>Samuel Colorado Castrillón</li>
             <li>Juliana Alejandra Ocampo</li>
+            <li>Jhonatan Parra</li>
+            <li>Laura Suárez</li>
         </ul>
     </span>
   );
