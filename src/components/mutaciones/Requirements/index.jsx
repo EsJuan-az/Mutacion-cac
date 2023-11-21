@@ -1,9 +1,13 @@
 import React from "react";
 import MutacionTemplate from "../MutacionTemplate";
+import juanes from '../../../assets/Juanes2.mp3';
 
 function Requirements() {
   return (
-    <MutacionTemplate title="Documentos necesarios">
+    <MutacionTemplate
+      title="Documentos necesarios"
+      author="Juan Esteban Arango"
+      audio={juanes}>
       <ol className="list-decimal p-3">
         <li>
           <em>

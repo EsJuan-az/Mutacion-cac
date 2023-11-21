@@ -1,9 +1,14 @@
 import React from "react";
 import MutacionTemplate from "../MutacionTemplate";
+import samuel from '../../../assets/Samuel.mp3';
 
 function FourthKind() {
   return (
-    <MutacionTemplate title="Mutaciones de cuarto tipo" author="Samuel Colorado">
+    <MutacionTemplate
+    title="Mutaciones de cuarto tipo"
+    author="Samuel Colorado"
+    audio={samuel}
+    >
       <p>
         Las mutaciones de cuarta refieren al reajuste de los avalúos catastrales
         de los predios, ahora bien, ¿A qué se refiere esto? hay dos aspectos a

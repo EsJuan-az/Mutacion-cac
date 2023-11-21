@@ -1,10 +1,13 @@
 import React from "react";
 import MutacionTemplate from "../MutacionTemplate";
+import juliana from '../../../assets/Juliana.mp3';
+
 function ThirdKind() {
   return (
     <MutacionTemplate
       title="Mutación de tercer tipo"
       author="Juliana Alejandra Ocampo"
+      audio={juliana}
     >
       <p>
         La mutación de tercera se trata de cambios importantes en las políticas
