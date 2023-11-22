@@ -39,7 +39,12 @@ function Requirements() {
           o documento de Identidad del propietario, poseedor y/o apoderado.
         </li>
         <li>
-          Informar al usuario qué otros documentos puede aportar para agilizar
+         <em>
+            <b>
+             Informar al usuario
+            </b>
+         </em>
+ qué otros documentos puede aportar para agilizar
           su trámite.{" "}
         </li>
       </ol>
