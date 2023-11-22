@@ -16,6 +16,7 @@ function ThirdKind() {
         documentos específicos dependiendo de la naturaleza de la propiedad y el
         tipo de modificación que se busca.
       </p>
+      <br />
       <b>
         Se dividen en dos categorías principales: métodos directos e indirectos.
       </b>

@@ -13,8 +13,9 @@ function FirstKind() {
         catastral o valor del predio. Es decir, cuando se efectúa una venta, se
         liquida una sucesión, se adjudica o titula un predio.
       </p>
+      <br />
       <b>Existen diferentes casos:</b>
-      <ul className="list-disc p-3">
+      <ul className="list-disc pl-3">
         <li>
           <em>
             <b>Mejora en predio ajeno:</b>

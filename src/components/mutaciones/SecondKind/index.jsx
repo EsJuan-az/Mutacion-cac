@@ -21,7 +21,7 @@ function SecondKind() {
         necesarios. Dependiendo de tu necesidad, aquí están los documentos que
         debes adjuntar:
       </p>
-
+      <br />
       <ul className="list-disc pl-3">
         <li>
           <em>

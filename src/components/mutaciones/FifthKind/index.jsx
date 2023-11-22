@@ -21,6 +21,7 @@ function FifthKind() {
         en los registros oficiales según la condición del predio, los documentos
         requeridos son:{" "}
       </p>
+      <br />
       <b>Mejora en predio ajeno o informales:</b>
       <ul className="list-disc pl-3">
         <li>Solicitud escrita </li>

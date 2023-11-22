@@ -2,7 +2,7 @@ import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 function MutacionTemplate({ children, audio, title, author }) {
   return (
-    <section className="w-3/4 pl-5 pb-2 text-xs justify-center pr-2">
+    <section className="w-3/4 pl-5 pb-2 text-xs justify-center pr-2 z-[10]">
       <h2 className="paladark text-xl">{title}:</h2>
       { author && <h4 className="paladark text-xs mt-[-3px]">Por { author }.</h4>}
 
