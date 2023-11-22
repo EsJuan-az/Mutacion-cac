@@ -36,7 +36,7 @@ function ThirdKind() {
       <b>
         En situaciones donde haya errores administrativos, como registros
         duplicados, la mutación de tercera se utiliza como mecanismo para
-        corregir estas inconsistencias
+        corregir estas inconsistencias.
       </b>
     </MutacionTemplate>
   );

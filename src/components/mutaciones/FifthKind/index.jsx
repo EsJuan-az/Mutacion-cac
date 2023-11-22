@@ -24,13 +24,13 @@ function FifthKind() {
       <br />
       <b>Mejora en predio ajeno o informales:</b>
       <ul className="list-disc pl-3">
-        <li>Solicitud escrita </li>
-        <li>Carta venta </li>
+        <li>Solicitud escrita.</li>
+        <li>Carta venta.</li>
         <li>
           Constancia de pago de servicios públicos, contribuciones,
           valorizaciones y demás.{" "}
         </li>
-        <li>Acreditar existencia y propiedad de la mejora. </li>
+        <li>Acreditar existencia y propiedad de la mejora.</li>
         <li>
           Para el caso de mejoras en municipios fiscales, el solicitante deberá
           indicar el área y el avalúo del predio.
