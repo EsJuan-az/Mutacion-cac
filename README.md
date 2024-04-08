@@ -1,3 +1,11 @@
+# 🎞️Mutación🎞️: A project for anti-corruption chair.
+This is an static informative page who teaches how the property mutation works through interactive
+paragraphs and a elegant design. Wanna try? Run the following.
+```
+npm i
+npm run dev
+```
+Thanks for watching :D.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
